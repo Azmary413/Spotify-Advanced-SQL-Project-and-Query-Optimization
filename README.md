@@ -1,4 +1,4 @@
-# Spotify Advanced SQL Project and Query Optimization P-6
+# Spotify Advanced SQL Project and Query Optimization
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
@@ -69,11 +69,35 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 ## 15 Practice Questions
 
 ### Easy Level
-1. Retrieve the names of all tracks that have more than 1 billion streams.
-2. List all albums along with their respective artists.
-3. Get the total number of comments for tracks where `licensed = TRUE`.
-4. Find all tracks that belong to the album type `single`.
-5. Count the total number of tracks by each artist.
+1. **Retrieve the names of all tracks that have more than 1 billion streams.**
+
+```sql
+
+```
+   
+3. List all albums along with their respective artists.
+  
+```sql
+
+```
+   
+4. Get the total number of comments for tracks where `licensed = TRUE`.  
+
+```sql
+
+```
+   
+5. Find all tracks that belong to the album type `single`.
+
+```sql
+
+```
+   
+7. Count the total number of tracks by each artist.
+
+```sql
+
+```
 
 ### Medium Level
 1. Calculate the average danceability of tracks in each album.
