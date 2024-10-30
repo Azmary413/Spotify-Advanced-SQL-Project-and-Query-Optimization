@@ -54,9 +54,9 @@ CREATE TABLE spotify (
 ### 3. Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to help progressively develop SQL proficiency.
 
-**Easy Queries:** Basic retrieval, filtering, and aggregation.
-**Medium Queries:** Involves grouping, joins, and aggregation functions.
-**Advanced Queries:** Uses nested subqueries, window functions, and CTEs.
+- **Easy Queries:** Basic retrieval, filtering, and aggregation.
+- **Medium Queries:** Involves grouping, joins, and aggregation functions.
+- **Advanced Queries:** Uses nested subqueries, window functions, and CTEs.
   
 ---
 
