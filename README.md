@@ -254,8 +254,8 @@ To improve query performance, we carried out the following optimization process:
 - **Initial Query Performance Analysis Using `EXPLAIN`**
     - We began by analyzing the performance of a query using the `EXPLAIN` function.
     - The query retrieved tracks based on the `artist` column, and the performance metrics were as follows:
-        - Execution time (E.T.): **7 ms**
-        - Planning time (P.T.): **0.17 ms**
+        - Execution time (E.T.): **10.9 ms**
+        - Planning time (P.T.): **1.16 ms**
     - Below is the **screenshot** of the `EXPLAIN` result before optimization:
       ![EXPLAIN Before Index](https://github.com/Azmary413/Spotify-Advanced-SQL-Project-and-Query-Optimization/blob/main/spotify_explain_before_index.jpg)
 
@@ -268,8 +268,8 @@ To improve query performance, we carried out the following optimization process:
 
 - **Performance Analysis After Index Creation**
     - After creating the index, we ran the same query again and observed significant improvements in performance:
-        - Execution time (E.T.): **0.153 ms**
-        - Planning time (P.T.): **0.152 ms**
+        - Execution time (E.T.): **0.144 ms**
+        - Planning time (P.T.): **1.396 ms**
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
       ![EXPLAIN After Index](https://github.com/Azmary413/Spotify-Advanced-SQL-Project-and-Query-Optimization/blob/main/spotify_explain_after_index.jpg)
 
@@ -288,12 +288,12 @@ This optimization shows how indexing can drastically reduce query time, improvin
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 - **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
 
-## How to Run the Project
-1. Install PostgreSQL and pgAdmin (if not already installed).
-2. Set up the database schema and tables using the provided normalization structure.
-3. Insert the sample data into the respective tables.
-4. Execute SQL queries to solve the listed problems.
-5. Explore query optimization techniques for large datasets.
+## 🚀 How to Run the Project
+Set Up: Install PostgreSQL and pgAdmin (if not installed).
+Create Schema: Build tables using the normalization structure.
+Insert Data: Populate tables with sample data.
+Run Queries: Execute SQL queries to analyze and optimize.
+Optimization: Use indexing and performance review for large datasets.
 
 ---
 
